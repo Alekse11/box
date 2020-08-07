@@ -1,0 +1,310 @@
+@font-face {
+	font-family: 'raleway';
+	font-style: normal;
+	font-weight: 800;
+	src: url(../fonts/raleway/raleway-extrabold.woff2) format('woff2');
+	src: url(../fonts/raleway/raleway-extrabold.woff) format('woff');
+	src: url(../fonts/raleway/raleway-extrabold.ttf) format('ttf');
+	src: url(../fonts/raleway/raleway-extrabold.eot) format('eot');
+}
+
+@font-face {
+	font-family: 'montserrat';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/montserrat/montserrat-regular.woff2) format('woff2');
+	src: url(../fonts/montserrat/montserrat-regular.woff) format('woff');
+	src: url(../fonts/montserrat/montserrat-regular.ttf) format('ttf');
+	src: url(../fonts/montserrat/montserrat-regular.eot) format('eot');
+}
+
+@font-face {
+	font-family: 'montserrat';
+	font-style: normal;
+	font-weight: 300;
+	src: url(../fonts/montserrat/montserrat-light.woff2) format('woff2');
+	src: url(../fonts/montserrat/montserrat-light.woff) format('woff');
+	src: url(../fonts/montserrat/montserrat-light.ttf) format('ttf');
+	src: url(../fonts/montserrat/montserrat-light.eot) format('eot');
+}
+
+@font-face {
+	font-family: 'montserrat';
+	font-style: normal;
+	font-weight: 200;
+	src: url(../fonts/montserrat/montserrat-extralight.woff2) format('woff2');
+	src: url(../fonts/montserrat/montserrat-extralight.woff) format('woff');
+	src: url(../fonts/montserrat/montserrat-extralight.ttf) format('ttf');
+	src: url(../fonts/montserrat/montserrat-extralight.eot) format('eot');
+}
+
+@font-face {
+	font-family: 'raleway';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/raleway/raleway-bold.woff2) format('woff2');
+	src: url(../fonts/raleway/raleway-bold.woff) format('woff');
+	src: url(../fonts/raleway/raleway-bold.ttf) format('ttf');
+	src: url(../fonts/raleway/raleway-bold.eot) format('eot');
+}
+
+@font-face {
+	font-family: 'raleway';
+	font-style: normal;
+	font-weight: 600;
+	src: url(../fonts/raleway/raleway-semibold.woff2) format('woff2');
+	src: url(../fonts/raleway/raleway-semibold.woff) format('woff');
+	src: url(../fonts/raleway/raleway-semibold.ttf) format('ttf');
+	src: url(../fonts/raleway/raleway-semibold.eot) format('eot');
+}
+
+@font-face {
+	font-family: 'raleway';
+	font-style: normal;
+	font-weight: 500;
+	src: url(../fonts/raleway/raleway-medium.woff2) format('woff2');
+	src: url(../fonts/raleway/raleway-medium.woff) format('woff');
+	src: url(../fonts/raleway/raleway-medium.ttf) format('ttf');
+	src: url(../fonts/raleway/raleway-medium.eot) format('eot');
+}
+
+@font-face {
+	font-family: 'raleway';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/raleway/raleway-regular.woff2) format('woff2');
+	src: url(../fonts/raleway/raleway-regular.woff) format('woff');
+	src: url(../fonts/raleway/raleway-regular.ttf) format('ttf');
+	src: url(../fonts/raleway/raleway-regular.eot) format('eot');
+}
+
+@font-face {
+	font-family: 'roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/roboto/roboto-regular.woff2) format('woff2');
+	src: url(../fonts/roboto/roboto-regular.woff) format('woff');
+	src: url(../fonts/roboto/roboto-regular.ttf) format('ttf');
+	src: url(../fonts/roboto/roboto-regular.eot) format('eot');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 1920px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+header{
+	background-color: #f0f0f2;
+}
+#logo {
+    text-align: center;
+    width: 82px;
+    height: 64px;
+    position: relative;
+    left: 49%;
+}
+main{
+    padding: 0px 10px 0px 10px;
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0 auto;
+}
+.firstblok, .secondblok{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.firstblok{
+	margin: 10px 0px;
+}
+#boximg{
+	width: 626px;
+	height: 686px;
+}
+/* .text{
+	background-color: #f0f0f2;
+	margin: 168px 0 0 0;
+	border-radius: 50px;
+}  */
+#firsttextblok{
+    padding: 47px 0 0px 13px;
+	height: 395px;
+	background-color: #f0f0f2;
+	margin: 168px 0 0 0;
+	border-radius: 50px;
+	/* border: 1px solid black; */
+}
+.title{
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-family: "raleway", 'arial', sans-serif;
+    font-size: 52px;
+	font-weight: 700;
+	margin: 0;
+}
+.textabout {
+    width: 562px;
+    color: #000000;
+    font-family: 'montserrat', 'arial', sans-serif;
+    font-size: 20px;
+    font-weight: 250;
+    line-height: 22px;
+	text-align: justify;
+	margin: 15px -8px 15px 19px;
+}
+#list{
+    width: 562px;
+    color: #000000;
+    font-family: 'montserrat', 'arial', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 28px;
+	text-align: justify;
+	margin: 0 0 0 0;
+}
+.secondblok{
+	background-color: #f0f0f2;
+	padding: 40px 0px;
+}
+#whitebloke{
+	/* border: 1px solid black; */
+    background-color: #fff;
+    width: 400px;
+    height: 465px;
+	padding: 15px 0 0 57px;
+	margin: 168px 0 0 0;
+	border-radius: 50px;
+}
+.kvasov-box-gradient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+	margin: -1px 0 0 -49px;
+    font-family: 'Comfortaa', cursive;
+}
+.kvasov-btn-gradient {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 2px 20px -5px grey;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+}
+   
+  /* здесь начинается волшебство */
+.kvasov-btn-gradient:hover {
+    background-position: right center; /* изменить направление движения цвета можно здесь */
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+   
+.btn-color {
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    text-decoration: none;
+}
+
+/* .secondblok{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+} */
+footer{
+	padding: 0px 10px 0px 10px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#w{
+	color: #000000;
+    font-family: 'montserrat', 'arial', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 28px;
+}
+.socialicon{
+	display: block;
+	border-radius: 17px;
+    background-color: #fff;
+    width: 66px;
+    height: 67px;
+    background-image: url(../img/social.png);
+    background-position: center;
+}
+@media screen and (max-width: 480px){
+	#qr,
+	#e
+	/* #firsttextblok*/{ 
+		display: none;
+	}
+	header{
+		width: 100%;
+	}
+	#logo{
+		position: relative;
+		left: 41%;
+	}
+	.firstblok{
+		padding: 0 0px 281px 0;
+	}
+	#boximg{
+		width: 300px;
+		height: 300px;
+	}
+	#firsttextblok{
+		width: 100%;
+		height: 100px;
+		background-color: #fff;
+		/* border: 1px solid black; */
+		margin: 0;
+		padding: 0;
+	}
+	.textabout{
+		width: 100%;
+		margin: 10px 0 0 0;
+	}
+	#list{
+		width: 100%;
+		margin: 10px 0 0 2px;
+		padding: 0;
+		list-style-type: none;
+	}
+	.secondblok{
+		padding: 20px 0 100px 0;
+    	border-radius: 50px;
+	}
+	#phoneimg{
+	width: 93%;
+	height: 70%;
+	}
+	#whitebloke{
+		width: 0;
+		height: 0;
+		/* padding: 0; */
+		margin: 0;
+		/* padding: 11px 0 0 52px; */
+		background-color: #f0f0f2;
+	}
+	footer{
+    /* width: 100%; */
+    padding: 0 10px 0 10px;
+    margin: 10px 0 0 0;
+    background-color: #f0f0f2;
+    border-radius: 32px;
+	}
+
+}
+
