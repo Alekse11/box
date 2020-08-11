@@ -225,8 +225,8 @@ footer{
 	padding: 0px 10px 0px 10px;
 	margin: 0 auto;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-direction: column;
+	/* justify-content: space-between; */
 }
 #w{
 	color: #000000;
@@ -258,7 +258,7 @@ footer{
 		left: 41%;
 	}
 	.firstblok{
-		padding: 0 0px 281px 0;
+		padding: 0 0px 18px 0;
 	}
 	#boximg{
 		width: 300px;
@@ -266,25 +266,28 @@ footer{
 	}
 	#firsttextblok{
 		width: 100%;
-		height: 100px;
-		background-color: #fff;
+		height: 390px;
+		/* background-color: #fff; */
 		/* border: 1px solid black; */
 		margin: 0;
-		padding: 0;
+		padding:  5px;
+		border-radius: 30px;
 	}
 	.textabout{
 		width: 100%;
 		margin: 10px 0 0 0;
 	}
 	#list{
-		width: 100%;
+		width: 97%;
 		margin: 10px 0 0 2px;
-		padding: 0;
-		list-style-type: none;
+		padding: 0px 0px 0px 13px;
+	}
+	.listpoint:nth-child(4){
+		width: 359px;
 	}
 	.secondblok{
 		padding: 20px 0 100px 0;
-    	border-radius: 50px;
+    	border-radius: 30px;
 	}
 	#phoneimg{
 	width: 93%;
